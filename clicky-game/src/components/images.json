@@ -1,6 +1,5 @@
-const images = [
-
-    {
+[
+  {
     "id": 1,
     "alt": "spongeGuy",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014"
@@ -64,6 +63,4 @@ const images = [
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png"
 
   }
-];
-
-export default images;
+]

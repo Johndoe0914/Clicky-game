@@ -21,6 +21,10 @@
     width: 60%;
    
   }
+  .card:hover{
+    cursor: pointer;
+    background-color: midnightblue;
+  }
   .imagesContainer{
       position: relative;
       height: 600px;

@@ -5,4 +5,8 @@
     height: 100px;
     background-color: blueviolet;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    font-weight: bold;
 };
+.Navbar.Text{
+    font-weight: bold;
+}

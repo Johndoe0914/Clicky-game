@@ -4,7 +4,7 @@ import Header from "./components/header";
 import Jumbo from "./components/Jumbotron";
 import "./components/imagecards.css";
 import Card from "./components/imagecards";
-import images from "./components/images.js";
+import images from "./components/images.json";
 
 
 function shuffleImages(array){
@@ -77,7 +77,7 @@ class App extends Component {
        <Jumbo />
        <div className="imagesContainer">
        {this.state.images.map(image => (
-          <Card handleClick={this.handleClick}  key={image.id} id={image.id} alt={image.alt} src={image.image} />
+          <Card handleClick={this.handleClick}  key={image.id} id={image.id} alt={image.alt} image={image.image} />
        ))}
        </div>
       
